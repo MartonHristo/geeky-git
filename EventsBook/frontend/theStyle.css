@@ -1,0 +1,43 @@
+     .container{
+                min-width: 80vw;
+          }
+          .form-control{
+                height: 10vh;
+                font-size: 4vh;
+                opacity: 0.60;
+                color:#222;
+          }
+		  .input-group {
+                width:85vw;
+                padding: 0;
+                margin: 1;
+		  }
+        .input-group:hover .form-control{
+             
+                cursor: pointer;
+                opacity:1;
+                transition: opacity 2s;
+                -webkit-transition: opacity 0.5s; 
+            
+          }
+            
+          
+          .input-group:hover .btn{
+             
+                opacity: 1;
+                cursor: pointer;
+                transition: opacity 2s;
+                -webkit-transition: opacity 0.5s; 
+            
+          }
+          .btn{
+
+                height: 10vh;
+                width: 15vh;
+                font-size: 4vh;
+                opacity: 0.60;
+          }
+        #map{
+            position: relative;
+        }
+    
